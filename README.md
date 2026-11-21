@@ -37,20 +37,3 @@ Web manajemen toko sederhana dengan fitur crud dan auth.
 6. ***jalankan server lokal***
     ```bash
     php artisan serve
-
-*(Pastikan file `.env` dan folder `vendor/` serta `public/storage` tidak ikut ter-upload—Laravel sudah otomatis mendaftarkannya di dalam `.gitignore`).*
-
----
-
-### 2. Cara Push Proyek ke GitHub
-
-1. **Buat repositori baru di GitHub**:
-   * Buka [github.com](https://github.com) → klik tombol **+** di pojok kanan atas → **New repository**.
-   * Isi **Repository name** (misalnya `latihan-laravel`), pilih **Public** atau **Private**, lalu klik **Create repository** (**jangan** centang *Add a README file* karena kita sudah membuatnya secara lokal).
-
-2. **Inisialisasi Git dan commit semua file di terminal proyek**:
-   Buka terminal di dalam folder `latihan-laravel` (atau terminal VS Code) lalu jalankan:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Aplikasi CRUD & Dashboard Admin Toko Laravel"
