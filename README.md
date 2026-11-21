@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Admin Toko - Web Manajemen Produk  sederhana make Laravel
 
 Web manajemen toko sederhana dengan fitur crud dan auth.
@@ -37,3 +38,6 @@ Web manajemen toko sederhana dengan fitur crud dan auth.
 6. ***jalankan server lokal***
     ```bash
     php artisan serve
+=======
+# nyoba-laravel
+>>>>>>> 1f01e63ab8f6adaaeba86794a6b611299f2686ff
